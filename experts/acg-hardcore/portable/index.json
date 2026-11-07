@@ -1,0 +1,112 @@
+{
+  "agents": [
+    {
+      "id": "acg-hardcore-team-lead",
+      "name": {
+        "en": "Gu Ciyuan",
+        "zh": "顾次元"
+      },
+      "profession": {
+        "en": "Dimension Content Editor-in-Chief",
+        "zh": "次元内容主编"
+      },
+      "system_prompt": "agents/acg-hardcore-team-lead.system.md"
+    },
+    {
+      "id": "acg-tool-developer",
+      "name": {
+        "en": "Huo Kaiyuan",
+        "zh": "霍开源"
+      },
+      "profession": {
+        "en": "ACG Tool Developer",
+        "zh": "ACG程序员"
+      },
+      "system_prompt": "agents/acg-tool-developer.system.md"
+    },
+    {
+      "id": "anime-canon-researcher",
+      "name": {
+        "en": "Yan Shouzhen",
+        "zh": "严守帧"
+      },
+      "profession": {
+        "en": "Anime Canon Officer",
+        "zh": "番剧考据官"
+      },
+      "system_prompt": "agents/anime-canon-researcher.system.md"
+    },
+    {
+      "id": "fanwork-writer",
+      "name": {
+        "en": "Tong Ren",
+        "zh": "佟仁"
+      },
+      "profession": {
+        "en": "Fanwork Scriptwriter",
+        "zh": "二创编剧"
+      },
+      "system_prompt": "agents/fanwork-writer.system.md"
+    },
+    {
+      "id": "game-lore-analyst",
+      "name": {
+        "en": "You Zhiyuan",
+        "zh": "游知源"
+      },
+      "profession": {
+        "en": "Game Lore Analyst",
+        "zh": "游戏设定考据师"
+      },
+      "system_prompt": "agents/game-lore-analyst.system.md"
+    },
+    {
+      "id": "hardcore-mechanics-player",
+      "name": {
+        "en": "Ji Zhenzhun",
+        "zh": "纪帧准"
+      },
+      "profession": {
+        "en": "Hardcore Mechanics Specialist",
+        "zh": "硬核技术玩家"
+      },
+      "system_prompt": "agents/hardcore-mechanics-player.system.md"
+    },
+    {
+      "id": "meme-culture-researcher",
+      "name": {
+        "en": "Geng Suyuan",
+        "zh": "耿溯源"
+      },
+      "profession": {
+        "en": "Meme Provenance Researcher",
+        "zh": "梗源流研究员"
+      },
+      "system_prompt": "agents/meme-culture-researcher.system.md"
+    },
+    {
+      "id": "retro-gear-geek",
+      "name": {
+        "en": "Wan Jitong",
+        "zh": "万机通"
+      },
+      "profession": {
+        "en": "Hardware & Retro Gear Geek",
+        "zh": "极客装备官"
+      },
+      "system_prompt": "agents/retro-gear-geek.system.md"
+    },
+    {
+      "id": "visual-art-director",
+      "name": {
+        "en": "Ke Lihui",
+        "zh": "柯立绘"
+      },
+      "profession": {
+        "en": "Working Illustrator",
+        "zh": "实战画师"
+      },
+      "system_prompt": "agents/visual-art-director.system.md"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "name": "acg-hardcore",
+  "version": "1.1.0",
+  "description": "A nine-seat hardcore ACG crew: anime canon, game lore, meme provenance, fanwork writing, mechanics analysis, retro hardware, tool development and illustration — from source to a working deliverable.",
+  "author": {
+    "name": "四十二",
+    "email": "local@workbuddy"
+  },
+  "agents": [
+    "./agents/acg-hardcore-team-lead.md",
+    "./agents/anime-canon-researcher.md",
+    "./agents/game-lore-analyst.md",
+    "./agents/meme-culture-researcher.md",
+    "./agents/fanwork-writer.md",
+    "./agents/visual-art-director.md",
+    "./agents/hardcore-mechanics-player.md",
+    "./agents/retro-gear-geek.md",
+    "./agents/acg-tool-developer.md"
+  ],
+
+  "expertType": "team",
+  "agentName": "acg-hardcore-team-lead",
+  "teamInfo": {
+    "leadAgent": "acg-hardcore-team-lead",
+    "memberAgents": [
+      "anime-canon-researcher",
+      "game-lore-analyst",
+      "meme-culture-researcher",
+      "fanwork-writer",
+      "visual-art-director",
+      "hardcore-mechanics-player",
+      "retro-gear-geek",
+      "acg-tool-developer"
+    ]
+  },
+
+  "displayName": {
+    "en": "ACG Hardcore Crew",
+    "zh": "ACG硬核团"
+  },
+  "profession": {
+    "en": "ACG Hardcore Crew",
+    "zh": "ACG硬核团"
+  },
+  "displayDescription": {
+    "en": "Nine hardcore seats: anime and game canon, meme provenance, frame data, retro hardware, tool development and illustration. From where it came from to a working deliverable.",
+    "zh": "九人硬核班底：番剧游戏考据、梗源流、速通帧数据、复古硬件、同人开发与画师，从出处到成品一条线跑完。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "这游戏的伤害公式和判定帧怎么算？帮我算一套最优配装。",
+    "en": "How do this game's damage formula and frame data actually work? Work out the optimal build for me."
+  },
+  "plugin": "acg-hardcore",
+  "tags": [
+    { "en": "Hardcore Mechanics", "zh": "硬核机制" },
+    { "en": "Meme Culture", "zh": "梗文化" },
+    { "en": "Fanwork Dev", "zh": "二创开发" }
+  ],
+  "quickPrompts": [
+    { "en": "How do this game's damage formula and frame data actually work? Work out the optimal build for me.", "zh": "这游戏的伤害公式和判定帧怎么算？帮我算一套最优配装。" },
+    { "en": "My retro console looks bad and feels laggy — walk the whole latency chain and tell me what to fix first.", "zh": "老主机画面糊、手感还飘，帮我把延迟链路查一遍，先修哪一段？" },
+    { "en": "Build me a tool that pulls anime schedules and danmaku, then draw a fanwork piece with it.", "zh": "帮我搭个抓番剧表和弹幕的工具，再顺手画一张二创图。" }
+  ],
+  "members": [
+    {
+      "id": "acg-hardcore-team-lead",
+      "displayName": { "en": "Gu Ciyuan", "zh": "顾次元" },
+      "profession": { "en": "Dimension Content Editor-in-Chief", "zh": "次元内容主编" },
+      "avatar": "avatars/acg-hardcore-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "anime-canon-researcher",
+      "displayName": { "en": "Yan Shouzhen", "zh": "严守帧" },
+      "profession": { "en": "Anime Canon Officer", "zh": "番剧考据官" },
+      "avatar": "avatars/anime-canon-researcher.png",
+      "role": "member"
+    },
+    {
+      "id": "game-lore-analyst",
+      "displayName": { "en": "You Zhiyuan", "zh": "游知源" },
+      "profession": { "en": "Game Lore Analyst", "zh": "游戏设定考据师" },
+      "avatar": "avatars/game-lore-analyst.png",
+      "role": "member"
+    },
+    {
+      "id": "meme-culture-researcher",
+      "displayName": { "en": "Geng Suyuan", "zh": "耿溯源" },
+      "profession": { "en": "Meme Provenance Researcher", "zh": "梗源流研究员" },
+      "avatar": "avatars/meme-culture-researcher.png",
+      "role": "member"
+    },
+    {
+      "id": "fanwork-writer",
+      "displayName": { "en": "Tong Ren", "zh": "佟仁" },
+      "profession": { "en": "Fanwork Scriptwriter", "zh": "二创编剧" },
+      "avatar": "avatars/fanwork-writer.png",
+      "role": "member"
+    },
+    {
+      "id": "visual-art-director",
+      "displayName": { "en": "Ke Lihui", "zh": "柯立绘" },
+      "profession": { "en": "Working Illustrator", "zh": "实战画师" },
+      "avatar": "avatars/visual-art-director.png",
+      "role": "member"
+    },
+    {
+      "id": "hardcore-mechanics-player",
+      "displayName": { "en": "Ji Zhenzhun", "zh": "纪帧准" },
+      "profession": { "en": "Hardcore Mechanics Specialist", "zh": "硬核技术玩家" },
+      "avatar": "avatars/hardcore-mechanics-player.png",
+      "role": "member"
+    },
+    {
+      "id": "retro-gear-geek",
+      "displayName": { "en": "Wan Jitong", "zh": "万机通" },
+      "profession": { "en": "Hardware & Retro Gear Geek", "zh": "极客装备官" },
+      "avatar": "avatars/retro-gear-geek.png",
+      "role": "member"
+    },
+    {
+      "id": "acg-tool-developer",
+      "displayName": { "en": "Huo Kaiyuan", "zh": "霍开源" },
+      "profession": { "en": "ACG Tool Developer", "zh": "ACG程序员" },
+      "avatar": "avatars/acg-tool-developer.png",
+      "role": "member"
+    }
+  ]
+}
